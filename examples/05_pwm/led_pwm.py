@@ -43,8 +43,15 @@ def hsv_to_rgb(h, s, v):
 
     return r, g, b
 
-while(True):
-    for i in range(360):
-        r, g, b = hsv_to_rgb(i, SATURATION, VALUE)
-        led_color(r, g, b)
-        time.sleep_ms(25)
+try:
+    while(True):
+        for i in range(360):
+            r, g, b = hsv_to_rgb(i, SATURATION, VALUE)
+            led_color(r, g, b)
+            print(r, g, b)
+            time.sleep_ms(50)
+
+except KeyboardInterrupt:
+    print("Exiting...")
+    r, g, b = 0, 0, 0
+    led_color(r, g, b)
