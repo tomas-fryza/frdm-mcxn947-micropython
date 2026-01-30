@@ -1,12 +1,10 @@
 """
-MicroPython template
-
-The script with a main loop can be interrupted using
-Ctrl+C.
+Digital Electronics Lab
+Board: FRDM-MCXN947
+Example: MicroPython template can be interrupted using Ctrl+C
 
 Author: Tomas Fryza
-
-Creation date: 2023-09-21
+Created: 2023-09-21
 Last modified: 2026-01-27
 """
 

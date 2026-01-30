@@ -1,14 +1,15 @@
 """
-Usage of MicroPython functions
+Digital Electronics Lab
+Board: FRDM-MCXN947
+Example: Usage of MicroPython functions
 
 Author: Tomas Fryza
-
-Creation date: 2023-10-12
+Created: 2023-10-12
 Last modified: 2026-01-27
 """
 
 import time
-import math   # Import mathematical module
+import math
 import cmath  # Complex numbers' math
 
 
